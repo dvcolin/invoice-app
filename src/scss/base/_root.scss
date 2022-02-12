@@ -20,6 +20,37 @@
   --color-text-1: #{$color-text-1--light};
   --color-text-2: #{$color-text-2--light};
   --color-text-3: #{$color-text-3--light};
+
+  // FONT FAMILIES
+  --font-family-body: #{$font-family-body};
+
+  // FONT WEIGHTS
+  --font-weight-medium: #{$font-weight-medium};
+  --font-weight-bold: #{$font-weight-bold};
+
+  // FONT SIZES
+  --font-size-h1: #{$font-size-h1};
+  --font-size-h2: #{$font-size-h2};
+  --font-size-h3: #{$font-size-h3};
+  --font-size-h3--small: #{$font-size-h3--small};
+  --font-size-body: #{$font-size-body};
+  --font-size-body--small: #{$font-size-body--small};
+
+  // LINE HEIGHTS
+  --line-height-h1: #{$line-height-h1};
+  --line-height-h2: #{$line-height-h2};
+  --line-height-h3: #{$line-height-h3};
+  --line-height-h3--small: #{$line-height-h3--small};
+  --line-height-body: #{$line-height-body};
+  --line-height-body--small: #{$line-height-body--small};
+
+  // LETTER SPACING
+  --letter-spacing-h1: #{$letter-spacing-h1};
+  --letter-spacing-h2: #{$letter-spacing-h2};
+  --letter-spacing-h3: #{$letter-spacing-h3};
+  --letter-spacing-h3--small: #{$letter-spacing-h3--small};
+  --letter-spacing-body: #{$letter-spacing-body};
+  --letter-spacing-body--small: #{$letter-spacing-body--small};
 }
 
 :root[data-theme="dark"] {

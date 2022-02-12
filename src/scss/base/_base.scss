@@ -4,6 +4,8 @@ html {
 
 body {
   box-sizing: border-box;
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-medium);
   background-color: var(--color-bg-1);
   color: var(--color-text-1);
 }
