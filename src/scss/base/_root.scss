@@ -1,0 +1,10 @@
+@use "../abstracts" as *;
+
+:root,
+:root[data-theme="light"] {
+  --color-background: #{$color-background--light};
+}
+
+:root[data-theme="dark"] {
+  --color-background: #{$color-background--dark};
+}
