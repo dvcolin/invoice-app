@@ -1,28 +1,19 @@
-// MAIN
-$color-primary: #7c5dfa;
-$color-primary-light: #9277ff;
-$color-success: #33d69f;
-$color-pending: #ff8f00;
-$color-danger: #ec5757;
-$color-danger-light: #ff9797;
-$color-text-4: #ffffff;
-
-// LIGHT THEME
-$color-bg-1--light: #f8f8fb;
-$color-bg-2--light: #373b53;
-$color-bg-3--light: #ffffff;
-$color-bg-4--light: #f9fafe;
-$color-bg-5--light: #373b53;
-$color-text-1--light: #888eb0;
-$color-text-2--light: #7e88c3;
-$color-text-3--light: #0c0e16;
-
-// DARK THEME
-$color-bg-1--dark: #141625;
-$color-bg-2--dark: #1e2139;
-$color-bg-3--dark: #1e2139;
-$color-bg-4--dark: #252945;
-$color-bg-5--dark: #0c0e16;
-$color-text-1--dark: #dfe3fa;
-$color-text-2--dark: #dfe3fa;
-$color-text-3--dark: #ffffff;
+$color-violetsAreBlue: #7c5dfa;
+$color-violetsAreBlue--light: #9277ff;
+$color-eucalyptus: #33d69f;
+$color-eucalyptus--light: rgba($color-eucalyptus, 0.0571);
+$color-darkOrange: #ff8f00;
+$color-darkOrange--light: rgba($color-darkOrange, 0.0571);
+$color-fireOpal: #ec5757;
+$color-fireOpal--light: #ff9797;
+$color-white: #ffffff;
+$color-ghostWhite: #f8f8fb;
+$color-ghostWhite-2: #f9fafe;
+$color-charcoal: #373b53;
+$color-coolGrey: #888eb0;
+$color-ube: #7e88c3;
+$color-chineseBlack: #0c0e16;
+$color-eerieBlack: #141625;
+$color-yankeesBlue: #1e2139;
+$color-yankeesBlue-2: #252945;
+$color-lavenderWeb: #dfe3fa;

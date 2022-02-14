@@ -6,25 +6,30 @@ $font-weight-medium: 500;
 $font-weight-bold: 700;
 
 // FONT SIZES
-$font-size-h1: 3.2rem;
+$font-size-h1--phone: 2rem;
+$font-size-h1--tablet: 3.2rem;
 $font-size-h2: 2rem;
-$font-size-h3: 1.6rem;
+$font-size-h3--phone: 1.2rem;
+$font-size-h3--tablet: 1.6rem;
 $font-size-h3--small: 1.2rem;
 $font-size-body: 1.2rem;
-$font-size-body--small: 1.1rem;
+$font-size-body--small--phone: 1.2rem;
+$font-size-body--small--desktop: 1.1rem;
 
 // LINE HEIGHTS
-$line-height-h1: 3.6rem;
-$line-height-h2: 2.2rem;
-$line-height-h3: 2.4rem;
-$line-height-h3--small: 1.5rem;
-$line-height-body: 1.5rem;
-$line-height-body--small: 1.8rem;
+$line-height-h1: 1.125;
+$line-height-h2: 1.1;
+$line-height-h3: 1.5;
+$line-height-h3--small: 1.25;
+$line-height-body: 1.25;
+$line-height-body--small: 1.636;
 
 // LETTER SPACING
-$letter-spacing-h1: -0.1rem;
+$letter-spacing-h1--phone: -0.063rem;
+$letter-spacing-h1--tablet: -0.1rem;
 $letter-spacing-h2: -0.063rem;
-$letter-spacing-h3: -0.08rem;
+$letter-spacing-h3--phone: -0.025rem;
+$letter-spacing-h3--tablet: -0.08rem;
 $letter-spacing-h3--small: -0.025rem;
 $letter-spacing-body: -0.025rem;
 $letter-spacing-body--small: -0.023rem;

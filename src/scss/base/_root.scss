@@ -2,25 +2,6 @@
 
 :root,
 :root[data-theme="light"] {
-  // MAIN COLORS
-  --color-primary: #{$color-primary};
-  --color-primary-light: #{$color-primary-light};
-  --color-success: #{$color-success};
-  --color-pending: #{$color-pending};
-  --color-danger: #{$color-danger};
-  --color-danger-light: #{$color-danger-light};
-  --color-text-4: #{$color-text-4};
-
-  // LIGHT THEME COLORS
-  --color-bg-1: #{$color-bg-1--light};
-  --color-bg-2: #{$color-bg-2--light};
-  --color-bg-3: #{$color-bg-3--light};
-  --color-bg-4: #{$color-bg-4--light};
-  --color-bg-5: #{$color-bg-5--light};
-  --color-text-1: #{$color-text-1--light};
-  --color-text-2: #{$color-text-2--light};
-  --color-text-3: #{$color-text-3--light};
-
   // FONT FAMILIES
   --font-family-body: #{$font-family-body};
 
@@ -29,12 +10,12 @@
   --font-weight-bold: #{$font-weight-bold};
 
   // FONT SIZES
-  --font-size-h1: #{$font-size-h1};
+  --font-size-h1: #{$font-size-h1--phone};
   --font-size-h2: #{$font-size-h2};
-  --font-size-h3: #{$font-size-h3};
+  --font-size-h3: #{$font-size-h3--phone};
   --font-size-h3--small: #{$font-size-h3--small};
   --font-size-body: #{$font-size-body};
-  --font-size-body--small: #{$font-size-body--small};
+  --font-size-body--small: #{$font-size-body--small--phone};
 
   // LINE HEIGHTS
   --line-height-h1: #{$line-height-h1};
@@ -45,9 +26,9 @@
   --line-height-body--small: #{$line-height-body--small};
 
   // LETTER SPACING
-  --letter-spacing-h1: #{$letter-spacing-h1};
+  --letter-spacing-h1: #{$letter-spacing-h1--phone};
   --letter-spacing-h2: #{$letter-spacing-h2};
-  --letter-spacing-h3: #{$letter-spacing-h3};
+  --letter-spacing-h3: #{$letter-spacing-h3--phone};
   --letter-spacing-h3--small: #{$letter-spacing-h3--small};
   --letter-spacing-body: #{$letter-spacing-body};
   --letter-spacing-body--small: #{$letter-spacing-body--small};
@@ -78,16 +59,63 @@
   --space-22: #{$space-22};
   --space-23: #{$space-23};
   --space-24: #{$space-24};
+
+  // MAIN COLORS
+  --color-primary: #{$color-violetsAreBlue};
+  --color-primary--light: #{$color-violetsAreBlue--light};
+  --color-pending: #{$color-darkOrange};
+  --color-pending--light: #{$color-darkOrange--light};
+  --color-icon: #{$color-ube};
+  --color-primary-button-text: #{$color-white};
+  --color-button-4-bg: #{$color-charcoal};
+  --color-delete-button-bg: #{$color-fireOpal};
+  --color-delete-button-bg--hover: #{$color-fireOpal--light};
+  --color-button-6-bg: #{$color-ghostWhite-2};
+  --color-button-6-bg--hover: #{$color-lavenderWeb};
+  --color-button-6-text: #{$color-ube};
+
+  // LIGHT THEME COLORS
+  --color-body-bg: #{$color-ghostWhite};
+  --color-body-text: #{$color-coolGrey};
+  --color-navbar-bg: #{$color-charcoal};
+  --color-heading: #{$color-chineseBlack};
+  --color-label-text: #{$color-ube};
+  --color-main-component-bg: #{$color-white};
+  --color-secondary-component-bg: #{$color-charcoal};
+  --color-input-border: #{$color-lavenderWeb};
+  --color-input-border--active: #{$color-violetsAreBlue--light};
+  --color-button-3-bg: #{$color-ghostWhite-2};
+  --color-button-3-bg--hover: #{$color-lavenderWeb};
+  --color-button-3-text: #{$color-ube};
+  --color-button-4-bg--hover: #{$color-chineseBlack};
+  --color-button-4-text: #{$color-coolGrey};
+
+  // TABLET STYLES
+  @include mq(tablet) {
+    --font-size-h1: #{$font-size-h1--tablet};
+    --font-size-h3: #{$font-size-h3--tablet};
+  }
+
+  // DESKTOP STYLES
+  @include mq(tablet) {
+    --font-size-body--small: #{$font-size-body--small--desktop};
+  }
 }
 
 :root[data-theme="dark"] {
   // DARK THEME COLORS
-  --color-bg-1: #{$color-bg-1--dark};
-  --color-bg-2: #{$color-bg-2--dark};
-  --color-bg-3: #{$color-bg-3--dark};
-  --color-bg-4: #{$color-bg-4--dark};
-  --color-bg-5: #{$color-bg-5--dark};
-  --color-text-1: #{$color-text-1--dark};
-  --color-text-2: #{$color-text-2--dark};
-  --color-text-3: #{$color-text-3--dark};
+  --color-body-bg: #{$color-eerieBlack};
+  --color-body-text: #{$color-lavenderWeb};
+  --color-navbar-bg: #{$color-yankeesBlue};
+  --color-heading: #{$color-white};
+  --color-label-text: #{$color-lavenderWeb};
+  --color-main-component-bg: #{$color-yankeesBlue};
+  --color-secondary-component-bg: #{$color-chineseBlack};
+  --color-input-border: #{$color-yankeesBlue-2};
+  --color-input-border--active: #{$color-yankeesBlue-2};
+  --color-button-3-bg: #{$color-yankeesBlue-2};
+  --color-button-3-bg--hover: #{$color-white};
+  --color-button-3-text: #{$color-lavenderWeb};
+  --color-button-4-bg--hover: #{$color-chineseBlack};
+  --color-button-4-text: #{$color-lavenderWeb};
 }
