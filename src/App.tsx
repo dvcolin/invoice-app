@@ -1,10 +1,14 @@
-import Heading from "./components/Heading";
+import { Routes, Route } from "react-router-dom";
+import Layout from "./components/layout/Layout";
+import HomePage from "./pages/HomePage";
 
 const App = () => {
   return (
-    <div>
-      <Heading>Invoice App</Heading>
-    </div>
+    <Layout>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </Layout>
   );
 };
 
