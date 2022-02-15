@@ -63,8 +63,10 @@
   // MAIN COLORS
   --color-primary: #{$color-violetsAreBlue};
   --color-primary--light: #{$color-violetsAreBlue--light};
-  --color-pending: #{$color-darkOrange};
-  --color-pending--light: #{$color-darkOrange--light};
+  --color-pending-bg: #{$color-darkOrange--light};
+  --color-pending-text: #{$color-darkOrange};
+  --color-success-bg: #{$color-eucalyptus--light};
+  --color-success-text: #{$color-eucalyptus};
   --color-icon: #{$color-ube};
   --color-primary-button-text: #{$color-white};
   --color-button-4-bg: #{$color-charcoal};
@@ -97,7 +99,7 @@
   }
 
   // DESKTOP STYLES
-  @include mq(tablet) {
+  @include mq(desktop) {
     --font-size-body--small: #{$font-size-body--small--desktop};
   }
 }
