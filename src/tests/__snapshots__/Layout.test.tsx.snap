@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="layout"
+>
+  <div
+    className="navbar"
+  >
+    <a
+      className="navbar__logo-link"
+      href="/"
+      onClick={[Function]}
+    >
+      <div
+        className="navbar__logo-box"
+      >
+        <img
+          alt="Invoice App logo"
+          className="navbar__logo"
+          src="logo.svg"
+        />
+        <div
+          className="navbar__logo-box-accent"
+        />
+      </div>
+    </a>
+    <div
+      className="navbar__content"
+    >
+      <div
+        className="navbar__theme-toggle-box"
+      >
+        <button
+          className="navbar__theme-toggle-button"
+        >
+          <img
+            alt="Toggle theme"
+            className="navbar__theme-toggle-icon"
+            src="icon-moon.svg"
+          />
+        </button>
+      </div>
+      <div
+        className="navbar__profile-box"
+      >
+        <img
+          alt="Profile"
+          className="navbar__profile-image"
+          src="image-avatar.jpg"
+        />
+      </div>
+    </div>
+  </div>
+  <main
+    className="layout__main"
+  />
+</div>
+`;
