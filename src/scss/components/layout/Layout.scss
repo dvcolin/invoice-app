@@ -1,3 +1,11 @@
+@use "../../abstracts" as *;
+
 .layout {
   min-height: 100vh;
+
+  &__main {
+    @include mq(desktop) {
+      padding-left: 10.3rem;
+    }
+  }
 }
